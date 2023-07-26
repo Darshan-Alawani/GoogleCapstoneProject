@@ -1,0 +1,34 @@
+After downloading the RAW data, the dataset had a unique Ride ID, bike type, started_at & ended_at in date-time format, start station name with a unique station id for each station
+and the same for the end station name with a unique ID for each end station, start & end latitudes and longitudes and finally the membership type (casual & member).
+
+* First step was to remove the start_station_id and end_station_id columns as they were redundant to the analysis process.
+
+* Second step was to create filters for each of the columns and check for any blank values. There were blank values in both the start_station_name and end_station_name columns. Upon
+filtering, the blank rows from both values were deleted.
+
+* Next was creating separate columns for start_date & start_time, end_date and end_time. Since the started_at & ended_at columns were in date-time format, the start date was derived
+using the formula: =INT(value). The result was then changed to a short-date format. For the start_time column, the formula: =value-INT(value) was applied and the result was converted
+to the time format. Note - using standard notations for the values in the formula. The same steps were repeated for the end_date and end_time calculations.
+
+* After the start_time and end_time columns were created with the relevant values, the ride duration was calculated using the formula: =IF(value2>value1, value2-value1, value2+1-* After the start_time and end_time columns were created with the relevant values, the ride duration was calculated using the formula: =IF(value2>value1, value2-value1, value2+1-D2). Note that
+some rides started after 11 PM and ended after 12 AM the next day. So just subtracting the end_date from the start_date would lead to null values for such rides. Hence, the 
+above-mentioned IF Function was used. The ride duration was derived in HH:MM:SS format.
+
+* To convert the ride duration from HH:MM:SS format to minute format, the following formula was implemented: =(HOUR(value)*60)+MINUTE(value)+SECOND(value)/60 and the subsequent
+values were converted to Number format.
+
+* Post this, the day on which the ride was completed was determined under the column name - day_week using the formula: =WEEKDAY(value, 1) where the results would be derived from
+the start_date values and the results would be displayed in integers from 1 to 7 representing the days of the week with 1 being 'Sunday" and 7 being 'Saturday'.
+
+* Next, the start_station_names and end_station_names were trimmed to remove any unwanted spaces.
+
+* After this, the distance travelled was calculated from the start & end latitudes and longitudes using the formula: =ACOS(COS(RADIANS(90-end_lat)) *COS(RADIANS(90-start_lat)) +SIN(RADIANS(90-end_lat)) *SIN(RADIANS(90-start_lat)) *COS(RADIANS(end_long-start_long))) *6371.
+The *6371 multiplication was used to retrieve the results in kilometres.
+
+* Lastly, the member_type column was trimmed to remove unwanted spaces.
+
+* The final data cleaning was centred on the ride_duration and distance_km columns where values of 0 mins and distances ranging from 0.001 km to 0.009 km were deleted as these
+would be NULL values and would hamper the analysis process.
+
+After the Data Cleaning was completed in Excel, all the datasets were then individually uploaded to MSSQL Server.
+
