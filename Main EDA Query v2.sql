@@ -228,3 +228,5 @@ GROUP by membership;
 --We see that users with an active membership tend to ride for a shorter duration. But, as we saw earlier, users with active memberships also tend to have more rides 
 --compared to users with no active memberships as members tend to use more on weekdays for commute purposes.
 
+Finally, after the EDA process, the CTE_2022 table was saved in a CSV file and the file was then uploaded to Tableau Desktop for visualization.
+
