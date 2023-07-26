@@ -59,4 +59,48 @@ The dataset was then uploaded in Tableau for further analysis and creating visua
 * But the average ride duration on weekends of casual users is nearly twice that of active users, thereby emphasizing that casual users prefer to use the bikes on weekends for leisure purposes.
 
 
+## Ride Duration vs Ride Distance
+![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/f28894b2-d2d0-4dd0-a716-25298ed37b63)
+![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/65f3ed8f-bbb9-4bd0-9ddd-d9766062c3b6)
+
+
+*INSIGHTS*
+* The 2 plots show a clear distinction between average distance and average duration for both user types.
+* Although the average distance does not differ by a lot, casual riders still tend to ride for longer distances and longer duration, especially on weekdays, again showing that the use case is more for leisure purposes.
+
+
+## Hourly Distribution of the number of rides ##
+![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/264efe0c-3c07-40e9-a76d-174b746a15fa)
+
+* We see that there is a dip in the number of rides post-12 AM for both users, but as the day progresses after 5 AM, we see a sharp increase in the number of rides by members especially from 7 AM to 9 AM, which are peak commute hours, with rides increasing again from 11 AM and a further increase after 3 PM since that is when
+schools are over for the day and the riders from 3 PM could start with school children.
+* Peak in the number of rides is seen at 5 PM which is also when office employees tend to log out and would use the rides to commute back home or gyms, supermarkets, etc.
+* Casual riders also see a similar rise in the number of rides, but the total ride numbers remain lower than active members.
+
+![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/7147c9ca-67b7-4edc-9f24-824e3c509a42)
+![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/9eae5234-ae7f-42b3-8b6d-216ef0757dd2)
+
+* The above 2 plots show the hourly distribution of the number of rides on Saturdays & Sundays.
+* While the increase and decrease trends in the number of rides look the same, we see a sharp rise in the ridership of casual users. In fact, from 12 PM to 4 PM,
+the number of casual users completing the rides is more than the number of rides completed by members. This trend is only visible on weekends. As said above, casual users look to ride more (both distance & duration) on weekends rather than weekdays clearly indicating the leisure use case.
+
+
+## Monthly Distribution of the number of rides ##
+![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/bb126c7d-ad3e-4704-8744-f3ef5ef7b111)
+
+* As we have seen earlier, active members had a 60.06% share out of the number of rides. The same can be seen in the above monthly distribution chart.
+* The number of casual users starts to drastically drop from November and sees a significant increase only from March. This shows that casual users don't prefer to use bikes during the winter months and only start increasing with the onset of Spring.
+* Higher numbers are seen from May to September, which is also the onset of the summer season. Hence, we see that casual users are also dependent on external environmental factors.
+* For members, while the numbers are still low during the winter months, there are still good numbers visible throughout the numbers. As said above, members with annual memberships are very crucial to the growth of the business.
+
+
+CONCLUSION AND RECOMMENDATIONS
+
+* In general, it is observed that casual users tend to use bikes more for leisure rides, while members prefer to use the bikes largely for daily commute purposes.
+* To convert more casual users to members, running marketing campaigns at places of tourism such as theme parks, theatres, sports stadiums, parks, museums, etc. would be a highly recommended task.
+* To boost ridership during the winter months, tie-ups with leading fast-food joints such as Starbucks, Subway, etc. offering some special discounts or offers for Cyclist members would attract more annual membership subscribers.
+* Creative push notifications, group events, members meet-ups would further encourage users to switch to annual memberships.
+
+
+
 
