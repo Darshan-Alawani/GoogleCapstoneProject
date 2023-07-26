@@ -36,27 +36,27 @@ The dataset was then uploaded in Tableau for further analysis and creating visua
 ![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/26239018-101b-4032-99e8-ee63fd65b5c1)
 
 *INSIGHTS*
--> 60.60% of total rides (3.8 million) were completed by users with Annual members in 2022.
--> 39.40% of the total rides were completed by casual users.
--> Annual members are key to the business model given that they formed a majority of the rideshare and the focus should be on maximizing this number.
+* 60.60% of total rides (3.8 million) were completed by users with Annual members in 2022.
+* 39.40% of the total rides were completed by casual users.
+* Annual members are key to the business model given that they formed a majority of the rideshare and the focus should be on maximizing this number.
 
 
 ### Rides per Week ###
 ![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/64ff3a55-a122-4e61-8ddc-553977c5eeb5)
 
 *INSIGHTS*
--> There is a clear trend that casual users prefer to ride on weekends than on weekdays, whereas we see a contradictory trend for members.
--> Members prefer to take rides more on weekdays for commuting to offices, schools, gyms, etc.
--> It is clear that casual users prefer to use bikes more on weekends for leisure purposes rather than commuting on weekdays.
+* There is a clear trend that casual users prefer to ride on weekends than on weekdays, whereas we see a contradictory trend for members.
+* Members prefer to take rides more on weekdays for commuting to offices, schools, gyms, etc.
+* It is clear that casual users prefer to use bikes more on weekends for leisure purposes rather than commuting on weekdays.
 
 
 ### Average Ride Duration per Day ###
 ![image](https://github.com/Darshan-Alawani/GoogleCapstoneProject/assets/139307108/f4c7316f-bf5b-42f5-83c1-6f093ca489e4)
 
 *INSIGHTS*
--> The average duration of rides for casual riders is nearly twice that of active users.
--> The average ride duration for both users decreases throughout the week and increases on weekends.
--> But the average ride duration on weekends of casual users is nearly twice that of active users, thereby emphasizing that casual users prefer to use the bikes on weekends for leisure purposes.
+* The average duration of rides for casual riders is nearly twice that of active users.
+* The average ride duration for both users decreases throughout the week and increases on weekends.
+* But the average ride duration on weekends of casual users is nearly twice that of active users, thereby emphasizing that casual users prefer to use the bikes on weekends for leisure purposes.
 
 
 
